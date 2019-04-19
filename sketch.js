@@ -12,11 +12,11 @@ function draw() {
    fill(0);
   
   if(x > 600){
-  speed =- 3;//or speed =- 3
+  speed =- 9;//or speed =- 3
   }
   
    if(x < 1 ){
-  speed =+ 3;//or speed =+ 3
+  speed =+ 9;//or speed =+ 3
   }
   
   ellipse(x, 300, 50)
